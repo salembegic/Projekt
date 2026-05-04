@@ -1,0 +1,653 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x172387E05E05DADA",
+      "device": "xc7s25csga324-1",
+      "gen_directory": "../../../../Projekt.gen/sources_1/bd/Uvod2",
+      "name": "Uvod2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "clk_wiz_0": "",
+      "debounce_0": "",
+      "debounce_1": "",
+      "debounce_2": "",
+      "debounce_3": "",
+      "svga_0": "",
+      "top_0": ""
+    },
+    "ports": {
+      "CLK_12MHz": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "Uvod2_CLK_12MHz",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "12000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "BTN0": {
+        "direction": "I"
+      },
+      "BTN1": {
+        "direction": "I"
+      },
+      "BTN2": {
+        "direction": "I"
+      },
+      "BTN3": {
+        "direction": "I"
+      },
+      "RED": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "GREEN": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "BLUE": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "HSYNC": {
+        "direction": "O"
+      },
+      "VSYNC": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "ip_revision": "16",
+        "xci_name": "Uvod2_clk_wiz_0_0",
+        "xci_path": "ip\\Uvod2_clk_wiz_0_0\\Uvod2_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "833.33"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "522.440"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "613.025"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "200.000"
+          },
+          "CLKOUT2_JITTER": {
+            "value": "686.725"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "613.025"
+          },
+          "CLKOUT2_REQUESTED_OUT_FREQ": {
+            "value": "40.000"
+          },
+          "CLKOUT2_USED": {
+            "value": "true"
+          },
+          "CLK_OUT1_PORT": {
+            "value": "clk_200MHz"
+          },
+          "CLK_OUT2_PORT": {
+            "value": "clk_40MHz"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "50.000"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "83.333"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.0"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "3.000"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "15"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "2"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "12.000"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      },
+      "debounce_0": {
+        "vlnv": "xilinx.com:module_ref:debounce:1.0",
+        "ip_revision": "1",
+        "xci_name": "Uvod2_debounce_0_0",
+        "xci_path": "ip\\Uvod2_debounce_0_0\\Uvod2_debounce_0_0.xci",
+        "inst_hier_path": "debounce_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "debounce",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "iw_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "200000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "iw_button": {
+            "direction": "I"
+          },
+          "ow_pressed": {
+            "direction": "O"
+          }
+        }
+      },
+      "debounce_1": {
+        "vlnv": "xilinx.com:module_ref:debounce:1.0",
+        "ip_revision": "1",
+        "xci_name": "Uvod2_debounce_0_1",
+        "xci_path": "ip\\Uvod2_debounce_0_1\\Uvod2_debounce_0_1.xci",
+        "inst_hier_path": "debounce_1",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "debounce",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "iw_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "200000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "iw_button": {
+            "direction": "I"
+          },
+          "ow_pressed": {
+            "direction": "O"
+          }
+        }
+      },
+      "debounce_2": {
+        "vlnv": "xilinx.com:module_ref:debounce:1.0",
+        "ip_revision": "1",
+        "xci_name": "Uvod2_debounce_0_2",
+        "xci_path": "ip\\Uvod2_debounce_0_2\\Uvod2_debounce_0_2.xci",
+        "inst_hier_path": "debounce_2",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "debounce",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "iw_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "200000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "iw_button": {
+            "direction": "I"
+          },
+          "ow_pressed": {
+            "direction": "O"
+          }
+        }
+      },
+      "debounce_3": {
+        "vlnv": "xilinx.com:module_ref:debounce:1.0",
+        "ip_revision": "1",
+        "xci_name": "Uvod2_debounce_0_3",
+        "xci_path": "ip\\Uvod2_debounce_0_3\\Uvod2_debounce_0_3.xci",
+        "inst_hier_path": "debounce_3",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "debounce",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "iw_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "200000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "iw_button": {
+            "direction": "I"
+          },
+          "ow_pressed": {
+            "direction": "O"
+          }
+        }
+      },
+      "svga_0": {
+        "vlnv": "xilinx.com:module_ref:svga:1.0",
+        "ip_revision": "1",
+        "xci_name": "Uvod2_svga_0_0",
+        "xci_path": "ip\\Uvod2_svga_0_0\\Uvod2_svga_0_0.xci",
+        "inst_hier_path": "svga_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "svga",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "iw_pix_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "40000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "iw4_red": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "iw4_green": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "iw4_blue": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "iw4_result_left": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "iw4_result_right": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "iw11_x_pos": {
+            "direction": "I",
+            "left": "10",
+            "right": "0"
+          },
+          "iw11_y_pos": {
+            "direction": "I",
+            "left": "10",
+            "right": "0"
+          },
+          "iw11_block_left_pos": {
+            "direction": "I",
+            "left": "10",
+            "right": "0"
+          },
+          "iw11_block_right_pos": {
+            "direction": "I",
+            "left": "10",
+            "right": "0"
+          },
+          "ow4_red": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "ow4_green": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "ow4_blue": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "ow_hsync": {
+            "direction": "O"
+          },
+          "ow_vsync": {
+            "direction": "O"
+          }
+        }
+      },
+      "top_0": {
+        "vlnv": "xilinx.com:module_ref:top:1.0",
+        "ip_revision": "1",
+        "xci_name": "Uvod2_top_0_0",
+        "xci_path": "ip\\Uvod2_top_0_0\\Uvod2_top_0_0.xci",
+        "inst_hier_path": "top_0",
+        "has_run_ip_tcl": "true",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "top",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "iw_clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "200000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "iw_btn0": {
+            "direction": "I"
+          },
+          "iw_btn1": {
+            "direction": "I"
+          },
+          "iw_btn2": {
+            "direction": "I"
+          },
+          "iw_btn3": {
+            "direction": "I"
+          },
+          "ow4_red": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "ow4_green": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "ow4_blue": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "ow4_result_left": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "ow4_result_right": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "ow11_x_pos": {
+            "direction": "O",
+            "left": "10",
+            "right": "0"
+          },
+          "ow11_y_pos": {
+            "direction": "O",
+            "left": "10",
+            "right": "0"
+          },
+          "ow11_block_left_pos": {
+            "direction": "O",
+            "left": "10",
+            "right": "0"
+          },
+          "ow11_block_right_pos": {
+            "direction": "O",
+            "left": "10",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "CLK_12MHz_1": {
+        "ports": [
+          "CLK_12MHz",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "clk_wiz_0_clk_200MHz": {
+        "ports": [
+          "clk_wiz_0/clk_200MHz",
+          "debounce_0/iw_clk",
+          "debounce_1/iw_clk",
+          "debounce_2/iw_clk",
+          "debounce_3/iw_clk",
+          "top_0/iw_clk"
+        ]
+      },
+      "clk_wiz_0_clk_40MHz": {
+        "ports": [
+          "clk_wiz_0/clk_40MHz",
+          "svga_0/iw_pix_clk"
+        ]
+      },
+      "debounce_0_ow_pressed": {
+        "ports": [
+          "debounce_0/ow_pressed",
+          "top_0/iw_btn0"
+        ]
+      },
+      "debounce_1_ow_pressed": {
+        "ports": [
+          "debounce_1/ow_pressed",
+          "top_0/iw_btn1"
+        ]
+      },
+      "debounce_2_ow_pressed": {
+        "ports": [
+          "debounce_2/ow_pressed",
+          "top_0/iw_btn2"
+        ]
+      },
+      "debounce_3_ow_pressed": {
+        "ports": [
+          "debounce_3/ow_pressed",
+          "top_0/iw_btn3"
+        ]
+      },
+      "iw_button_0_1": {
+        "ports": [
+          "BTN0",
+          "debounce_0/iw_button"
+        ]
+      },
+      "iw_button_1_1": {
+        "ports": [
+          "BTN1",
+          "debounce_1/iw_button"
+        ]
+      },
+      "iw_button_2_1": {
+        "ports": [
+          "BTN2",
+          "debounce_2/iw_button"
+        ]
+      },
+      "iw_button_3_1": {
+        "ports": [
+          "BTN3",
+          "debounce_3/iw_button"
+        ]
+      },
+      "svga_0_ow4_blue": {
+        "ports": [
+          "svga_0/ow4_blue",
+          "BLUE"
+        ]
+      },
+      "svga_0_ow4_green": {
+        "ports": [
+          "svga_0/ow4_green",
+          "GREEN"
+        ]
+      },
+      "svga_0_ow4_red": {
+        "ports": [
+          "svga_0/ow4_red",
+          "RED"
+        ]
+      },
+      "svga_0_ow_hsync": {
+        "ports": [
+          "svga_0/ow_hsync",
+          "HSYNC"
+        ]
+      },
+      "svga_0_ow_vsync": {
+        "ports": [
+          "svga_0/ow_vsync",
+          "VSYNC"
+        ]
+      },
+      "top_0_ow11_block_left_pos": {
+        "ports": [
+          "top_0/ow11_block_left_pos",
+          "svga_0/iw11_block_left_pos"
+        ]
+      },
+      "top_0_ow11_block_right_pos": {
+        "ports": [
+          "top_0/ow11_block_right_pos",
+          "svga_0/iw11_block_right_pos"
+        ]
+      },
+      "top_0_ow11_x_pos": {
+        "ports": [
+          "top_0/ow11_x_pos",
+          "svga_0/iw11_x_pos"
+        ]
+      },
+      "top_0_ow11_y_pos": {
+        "ports": [
+          "top_0/ow11_y_pos",
+          "svga_0/iw11_y_pos"
+        ]
+      },
+      "top_0_ow4_blue": {
+        "ports": [
+          "top_0/ow4_blue",
+          "svga_0/iw4_blue"
+        ]
+      },
+      "top_0_ow4_green": {
+        "ports": [
+          "top_0/ow4_green",
+          "svga_0/iw4_green"
+        ]
+      },
+      "top_0_ow4_red": {
+        "ports": [
+          "top_0/ow4_red",
+          "svga_0/iw4_red"
+        ]
+      },
+      "top_0_ow4_result_left": {
+        "ports": [
+          "top_0/ow4_result_left",
+          "svga_0/iw4_result_left"
+        ]
+      },
+      "top_0_ow4_result_right": {
+        "ports": [
+          "top_0/ow4_result_right",
+          "svga_0/iw4_result_right"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon May  4 16:49:23 2026
+# Process ID         : 8000
+# Current directory  : C:/Users/vaje/Desktop/Salem/SalemPEV/2.5/PEV/Projekt/Projekt.runs/Uvod2_svga_0_0_synth_1
+# Command line       : vivado.exe -log Uvod2_svga_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Uvod2_svga_0_0.tcl
+# Log file           : C:/Users/vaje/Desktop/Salem/SalemPEV/2.5/PEV/Projekt/Projekt.runs/Uvod2_svga_0_0_synth_1/Uvod2_svga_0_0.vds
+# Journal file       : C:/Users/vaje/Desktop/Salem/SalemPEV/2.5/PEV/Projekt/Projekt.runs/Uvod2_svga_0_0_synth_1\vivado.jou
+# Running On         : LRNV-INSTALL
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i5-10500 CPU @ 3.10GHz
+# CPU Frequency      : 3096 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16474 MB
+# Swap memory        : 2550 MB
+# Total Virtual      : 19024 MB
+# Available Virtual  : 11123 MB
+#-----------------------------------------------------------
+source Uvod2_svga_0_0.tcl -notrace

@@ -1,0 +1,437 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sun May  3 21:44:11 2026
+# Process ID         : 59700
+# Current directory  : C:/Users/Salem/Desktop/PEV/Projekt
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent62284 C:\Users\Salem\Desktop\PEV\Projekt\Projekt.xpr
+# Log file           : C:/Users/Salem/Desktop/PEV/Projekt/vivado.log
+# Journal file       : C:/Users/Salem/Desktop/PEV/Projekt\vivado.jou
+# Running On         : Asus_G14
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 9 7940HS w/ Radeon 780M Graphics     
+# CPU Frequency      : 3993 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33515 MB
+# Swap memory        : 3489 MB
+# Total Virtual      : 37005 MB
+# Available Virtual  : 9129 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Salem/Desktop/PEV/Projekt/Projekt.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24c\1.0\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24c\1.1\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24i\1.0\board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26c\1.2\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26c\1.3\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26c\1.4\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26i\1.2\board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26i\1.3\board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26i\1.4\board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kd240_som\1.0\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kd240_som\1.1\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kr260_som\1.0\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kr260_som\1.1\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kv260_som\1.2\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kv260_som\1.3\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kv260_som\1.4\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.0\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.3\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.4\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu1525\1.3\board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_mpsoc\1.0\board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\2.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.3\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.0\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.1\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.2\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc702\1.4\board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc706\1.4\board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.3\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.4\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu104\1.1\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.4\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.5\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.6\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24c\1.0\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24c\1.1\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24i\1.0\board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26c\1.2\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26c\1.3\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26c\1.4\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26i\1.2\board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26i\1.3\board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26i\1.4\board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:11 . Memory (MB): peak = 1678.410 ; gain = 289.367
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun May  3 21:46:47 2026] Launched impl_1...
+Run output will be captured here: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2025.1
+  **** Build date : May  6 2025 at 09:15:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2025.1.0
+  ****** Build date   : May 13 2025-21:15:27
+    **** Build number : 2025.1.1747163727
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1709.344 ; gain = 18.418
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210352BB8A70A
+current_hw_device [get_hw_devices xc7s25_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/impl_1/Uvod2_wrapper.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+open_bd_design {C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/Uvod2.bd}
+Reading block design file <C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/Uvod2.bd>...
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:module_ref:debounce:1.0 - debounce_0
+Adding component instance block -- xilinx.com:module_ref:debounce:1.0 - debounce_1
+Adding component instance block -- xilinx.com:module_ref:debounce:1.0 - debounce_2
+Adding component instance block -- xilinx.com:module_ref:debounce:1.0 - debounce_3
+Adding component instance block -- xilinx.com:module_ref:svga:1.0 - svga_0
+Adding component instance block -- xilinx.com:module_ref:top:1.0 - top_0
+Successfully read diagram <Uvod2> from block design file <C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/Uvod2.bd>
+open_bd_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1812.852 ; gain = 25.812
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {Uvod2_top_0_0 Uvod2_svga_0_0}]
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_pix_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_pix_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_pix_clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_pix_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_pix_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_pix_clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_clk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/Uvod2.bd'
+INFO: [IP_Flow 19-3420] Updated Uvod2_svga_0_0 to use current project options
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'iw4_result_left'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'iw4_result_right'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'Uvod2_svga_0_0'. These changes may impact your design.
+INFO: [IP_Flow 19-3420] Updated Uvod2_top_0_0 to use current project options
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'ow4_result_left'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'ow4_result_right'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'Uvod2_top_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'Uvod2_svga_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'Uvod2_top_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\bd\Uvod2\Uvod2.bd> 
+Wrote  : <C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/ui/bd_daad2dc.ui> 
+connect_bd_net [get_bd_pins top_0/ow4_blue] [get_bd_pins svga_0/iw4_result_left]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins top_0/ow4_blue] [get_bd_pins svga_0/iw4_result_left]'
+connect_bd_net [get_bd_pins top_0/ow4_result_right] [get_bd_pins svga_0/iw4_result_right]
+connect_bd_net [get_bd_pins top_0/ow4_result_left] [get_bd_pins svga_0/iw4_result_left]
+save_bd_design
+Wrote  : <C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\bd\Uvod2\Uvod2.bd> 
+Wrote  : <C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/ui/bd_daad2dc.ui> 
+report_ip_status -name ip_status 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/utils_1/imports/synth_1/Uvod2_wrapper.dcp with file C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/synth_1/Uvod2_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+Wrote  : <C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\bd\Uvod2\Uvod2.bd> 
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/synth/Uvod2.v
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/sim/Uvod2.v
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/hdl/Uvod2_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block svga_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block top_0 .
+Exporting to file c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/hw_handoff/Uvod2.hwh
+Generated Hardware Definition File c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/synth/Uvod2.hwdef
+[Sun May  3 22:23:25 2026] Launched Uvod2_svga_0_0_synth_1, Uvod2_top_0_0_synth_1, synth_1...
+Run output will be captured here:
+Uvod2_svga_0_0_synth_1: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/Uvod2_svga_0_0_synth_1/runme.log
+Uvod2_top_0_0_synth_1: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/Uvod2_top_0_0_synth_1/runme.log
+synth_1: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/synth_1/runme.log
+[Sun May  3 22:23:26 2026] Launched impl_1...
+Run output will be captured here: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/impl_1/Uvod2_wrapper.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+report_ip_status -name ip_status 
+update_module_reference [get_ips  Uvod2_svga_0_0]
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_pix_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_pix_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_pix_clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_pix_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_pix_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_pix_clk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/Uvod2.bd'
+INFO: [IP_Flow 19-3420] Updated Uvod2_svga_0_0 to use current project options
+Wrote  : <C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\bd\Uvod2\Uvod2.bd> 
+Wrote  : <C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/ui/bd_daad2dc.ui> 
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/utils_1/imports/synth_1/Uvod2_wrapper.dcp with file C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/synth_1/Uvod2_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+Wrote  : <C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\bd\Uvod2\Uvod2.bd> 
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/synth/Uvod2.v
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/sim/Uvod2.v
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/hdl/Uvod2_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block svga_0 .
+Exporting to file c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/hw_handoff/Uvod2.hwh
+Generated Hardware Definition File c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/synth/Uvod2.hwdef
+[Sun May  3 22:31:52 2026] Launched Uvod2_svga_0_0_synth_1, synth_1...
+Run output will be captured here:
+Uvod2_svga_0_0_synth_1: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/Uvod2_svga_0_0_synth_1/runme.log
+synth_1: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/synth_1/runme.log
+[Sun May  3 22:31:52 2026] Launched impl_1...
+Run output will be captured here: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/impl_1/Uvod2_wrapper.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  {Uvod2_top_0_0 Uvod2_svga_0_0}]
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_pix_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_pix_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_pix_clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_pix_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_pix_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_pix_clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_clk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/Uvod2.bd'
+INFO: [IP_Flow 19-3420] Updated Uvod2_svga_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated Uvod2_top_0_0 to use current project options
+Wrote  : <C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\bd\Uvod2\Uvod2.bd> 
+Wrote  : <C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/ui/bd_daad2dc.ui> 
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/utils_1/imports/synth_1/Uvod2_wrapper.dcp with file C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/synth_1/Uvod2_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+Wrote  : <C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\bd\Uvod2\Uvod2.bd> 
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/synth/Uvod2.v
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/sim/Uvod2.v
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/hdl/Uvod2_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block svga_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block top_0 .
+Exporting to file c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/hw_handoff/Uvod2.hwh
+Generated Hardware Definition File c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/synth/Uvod2.hwdef
+[Sun May  3 22:53:50 2026] Launched Uvod2_svga_0_0_synth_1, Uvod2_top_0_0_synth_1, synth_1...
+Run output will be captured here:
+Uvod2_svga_0_0_synth_1: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/Uvod2_svga_0_0_synth_1/runme.log
+Uvod2_top_0_0_synth_1: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/Uvod2_top_0_0_synth_1/runme.log
+synth_1: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/synth_1/runme.log
+[Sun May  3 22:53:50 2026] Launched impl_1...
+Run output will be captured here: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/impl_1/Uvod2_wrapper.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+report_ip_status -name ip_status 
+update_module_reference [get_ips  Uvod2_top_0_0]
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'iw_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'iw_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'iw_clk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/Uvod2.bd'
+INFO: [IP_Flow 19-3420] Updated Uvod2_top_0_0 to use current project options
+Wrote  : <C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\bd\Uvod2\Uvod2.bd> 
+Wrote  : <C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/sources_1/bd/Uvod2/ui/bd_daad2dc.ui> 
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/Salem/Desktop/PEV/Projekt/Projekt.srcs/utils_1/imports/synth_1/Uvod2_wrapper.dcp with file C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/synth_1/Uvod2_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+Wrote  : <C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\bd\Uvod2\Uvod2.bd> 
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/synth/Uvod2.v
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/sim/Uvod2.v
+Verilog Output written to : c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/hdl/Uvod2_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block top_0 .
+Exporting to file c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/hw_handoff/Uvod2.hwh
+Generated Hardware Definition File c:/Users/Salem/Desktop/PEV/Projekt/Projekt.gen/sources_1/bd/Uvod2/synth/Uvod2.hwdef
+[Sun May  3 23:00:23 2026] Launched Uvod2_top_0_0_synth_1, synth_1...
+Run output will be captured here:
+Uvod2_top_0_0_synth_1: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/Uvod2_top_0_0_synth_1/runme.log
+synth_1: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/synth_1/runme.log
+[Sun May  3 23:00:23 2026] Launched impl_1...
+Run output will be captured here: C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Salem\Desktop\PEV\Projekt\Projekt.srcs\sources_1\new\svga.v:]
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/Salem/Desktop/PEV/Projekt/Projekt.runs/impl_1/Uvod2_wrapper.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+INFO: [Labtools 27-1434] Device xc7s25 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  3 23:10:06 2026...
