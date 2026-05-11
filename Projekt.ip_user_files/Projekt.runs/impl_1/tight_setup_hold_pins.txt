@@ -1,0 +1,29 @@
++================================+================================+==================================================+
+| Launch Setup Clock             | Launch Hold Clock              | Pin                                              |
++================================+================================+==================================================+
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_green_reg[0]/D            |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_red_reg[0]/D              |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_green_reg[2]/D            |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_red_reg[2]/D              |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_green_reg[3]/D            |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_green_reg[1]/D            |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_red_reg[3]/D              |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_blue_reg[3]/D             |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_blue_reg[0]/D             |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_red_reg[1]/D              |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_blue_reg[1]/D             |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_40MHz_Uvod2_clk_wiz_0_0    | Uvod2_i/svga_0/inst/r4_blue_reg[2]/D             |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/DirY_reg/D                    |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/StepY_reg[1]/D                |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/StepY_reg[0]/D                |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/StepY_reg[2]/D                |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/FSM_onehot_State_reg[0]/D     |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/FSM_onehot_State_reg[1]/D     |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/FSM_onehot_State_reg[2]/D     |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/r11_block_right_pos_reg[8]/D  |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/r11_block_right_pos_reg[9]/D  |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/r11_block_right_pos_reg[10]/D |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/DirX_reg/D                    |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/r11_block_right_pos_reg[6]/D  |
+| clk_200MHz_Uvod2_clk_wiz_0_0_1 | clk_200MHz_Uvod2_clk_wiz_0_0_1 | Uvod2_i/top_0/inst/r11_block_right_pos_reg[7]/D  |
++--------------------------------+--------------------------------+--------------------------------------------------+

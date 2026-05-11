@@ -1,0 +1,54 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.963722",
+   "Default View_TopLeft":"-160,1",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_CLK_12MHz -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port port-id_BTN0 -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port port-id_BTN1 -pg 1 -lvl 0 -x 0 -y 320 -defaultsOSRD
+preplace port port-id_BTN2 -pg 1 -lvl 0 -x 0 -y 440 -defaultsOSRD
+preplace port port-id_BTN3 -pg 1 -lvl 0 -x 0 -y 580 -defaultsOSRD
+preplace port port-id_HSYNC -pg 1 -lvl 5 -x 1450 -y 220 -defaultsOSRD
+preplace port port-id_VSYNC -pg 1 -lvl 5 -x 1450 -y 250 -defaultsOSRD
+preplace portBus RED -pg 1 -lvl 5 -x 1450 -y 130 -defaultsOSRD
+preplace portBus GREEN -pg 1 -lvl 5 -x 1450 -y 160 -defaultsOSRD
+preplace portBus BLUE -pg 1 -lvl 5 -x 1450 -y 190 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 120 -y 150 -defaultsOSRD
+preplace inst debounce_0 -pg 1 -lvl 2 -x 350 -y 70 -defaultsOSRD
+preplace inst debounce_1 -pg 1 -lvl 2 -x 350 -y 310 -defaultsOSRD
+preplace inst debounce_2 -pg 1 -lvl 2 -x 350 -y 430 -defaultsOSRD
+preplace inst debounce_3 -pg 1 -lvl 2 -x 350 -y 570 -defaultsOSRD
+preplace inst svga_0 -pg 1 -lvl 4 -x 1180 -y 210 -defaultsOSRD
+preplace inst top_0 -pg 1 -lvl 3 -x 680 -y 420 -defaultsOSRD
+preplace netloc CLK_12MHz_1 1 0 1 NJ 150
+preplace netloc clk_wiz_0_clk_200MHz 1 1 2 220 500 490
+preplace netloc clk_wiz_0_clk_40MHz 1 1 3 NJ 160 NJ 160 840
+preplace netloc debounce_0_ow_pressed 1 2 1 510 70n
+preplace netloc debounce_1_ow_pressed 1 2 1 500 310n
+preplace netloc debounce_2_ow_pressed 1 2 1 480 430n
+preplace netloc debounce_3_ow_pressed 1 2 1 510 460n
+preplace netloc iw_button_0_1 1 0 2 NJ 80 NJ
+preplace netloc iw_button_1_1 1 0 2 NJ 320 NJ
+preplace netloc iw_button_2_1 1 0 2 NJ 440 NJ
+preplace netloc iw_button_3_1 1 0 2 NJ 580 NJ
+preplace netloc svga_0_ow4_blue 1 4 1 1380J 190n
+preplace netloc svga_0_ow4_green 1 4 1 1370J 160n
+preplace netloc svga_0_ow4_red 1 4 1 1360J 130n
+preplace netloc svga_0_ow_hsync 1 4 1 1360J 220n
+preplace netloc svga_0_ow_vsync 1 4 1 NJ 250
+preplace netloc top_0_ow11_block_left_pos 1 3 1 920 280n
+preplace netloc top_0_ow11_block_right_pos 1 3 1 930 300n
+preplace netloc top_0_ow11_x_pos 1 3 1 900 240n
+preplace netloc top_0_ow11_y_pos 1 3 1 910 260n
+preplace netloc top_0_ow4_blue 1 3 1 870 180n
+preplace netloc top_0_ow4_green 1 3 1 860 160n
+preplace netloc top_0_ow4_red 1 3 1 850 140n
+preplace netloc top_0_ow4_result_left 1 3 1 880 200n
+preplace netloc top_0_ow4_result_right 1 3 1 890 220n
+levelinfo -pg 1 0 120 350 680 1180 1450
+pagesize -pg 1 -db -bbox -sgen -130 0 1580 740
+"
+}
+0

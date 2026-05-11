@@ -1,0 +1,93 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Mon May  4 16:58:48 2026
+| Host         : LRNV-INSTALL running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Uvod2_wrapper_control_sets_placed.rpt
+| Design       : Uvod2_wrapper
+| Device       : xc7s25
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    15 |
+|    Minimum number of control sets                        |    15 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    54 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    15 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     3 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             108 |           46 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              35 |            9 |
+| Yes          | No                    | No                     |               7 |            4 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              84 |           42 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+----------------------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+|            Clock Signal            |                    Enable Signal                   |               Set/Reset Signal               | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------+----------------------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+|  Uvod2_i/clk_wiz_0/inst/clk_40MHz  | Uvod2_i/svga_0/inst/r11_v_count[9]_i_1_n_0         | Uvod2_i/svga_0/inst/r11_v_count[8]_i_1_n_0   |                2 |              3 |         1.50 |
+| ~Uvod2_i/clk_wiz_0/inst/clk_200MHz | Uvod2_i/top_0/inst/r4_result_left                  | Uvod2_i/top_0/inst/r4_result_left[3]_i_1_n_0 |                2 |              4 |         2.00 |
+| ~Uvod2_i/clk_wiz_0/inst/clk_200MHz | Uvod2_i/top_0/inst/r4_result_right[3]_i_1_n_0      | Uvod2_i/top_0/inst/r4_result_left[3]_i_1_n_0 |                3 |              4 |         1.33 |
+|  Uvod2_i/clk_wiz_0/inst/clk_40MHz  | Uvod2_i/svga_0/inst/r4_red[3]_i_2_n_0              | Uvod2_i/svga_0/inst/r4_red[2]_i_1_n_0        |                3 |              6 |         2.00 |
+|  Uvod2_i/clk_wiz_0/inst/clk_40MHz  | Uvod2_i/svga_0/inst/r4_red[3]_i_2_n_0              | Uvod2_i/svga_0/inst/r4_red[3]_i_1_n_0        |                1 |              6 |         6.00 |
+|  Uvod2_i/clk_wiz_0/inst/clk_40MHz  | Uvod2_i/svga_0/inst/r11_v_count[9]_i_1_n_0         |                                              |                4 |              7 |         1.75 |
+| ~Uvod2_i/clk_wiz_0/inst/clk_200MHz | Uvod2_i/top_0/inst/r11_block_left_pos[10]_i_1_n_0  | Uvod2_i/top_0/inst/r11_x_pos[10]_i_1_n_0     |                5 |              9 |         1.80 |
+| ~Uvod2_i/clk_wiz_0/inst/clk_200MHz | Uvod2_i/top_0/inst/r11_block_right_pos[10]_i_1_n_0 | Uvod2_i/top_0/inst/r11_x_pos[10]_i_1_n_0     |                4 |              9 |         2.25 |
+|  Uvod2_i/clk_wiz_0/inst/clk_40MHz  |                                                    | Uvod2_i/svga_0/inst/r11_v_count[9]_i_1_n_0   |                3 |             11 |         3.67 |
+|  Uvod2_i/clk_wiz_0/inst/clk_40MHz  | Uvod2_i/svga_0/inst/r11_active_y[10]_i_1_n_0       | Uvod2_i/svga_0/inst/r11_v_count[8]_i_1_n_0   |                5 |             11 |         2.20 |
+|  Uvod2_i/clk_wiz_0/inst/clk_40MHz  | Uvod2_i/svga_0/inst/p_33_in                        | Uvod2_i/svga_0/inst/r11_v_count[9]_i_1_n_0   |                6 |             11 |         1.83 |
+| ~Uvod2_i/clk_wiz_0/inst/clk_200MHz |                                                    |                                              |               13 |             20 |         1.54 |
+| ~Uvod2_i/clk_wiz_0/inst/clk_200MHz | Uvod2_i/top_0/inst/r11_x_pos[10]_i_2_n_0           | Uvod2_i/top_0/inst/r11_x_pos[10]_i_1_n_0     |               11 |             21 |         1.91 |
+| ~Uvod2_i/clk_wiz_0/inst/clk_200MHz |                                                    | Uvod2_i/top_0/inst/p_3_in                    |                6 |             24 |         4.00 |
+|  Uvod2_i/clk_wiz_0/inst/clk_200MHz |                                                    |                                              |               33 |             88 |         2.67 |
++------------------------------------+----------------------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+
+
